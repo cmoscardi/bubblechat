@@ -1,0 +1,18 @@
+{
+    "name": "RealTimeWebChat",
+    "version": "0.0.1-6",
+    "description": "Real time web chat",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest"
+    },
+    "author": "Christian",
+    "subdomain": "cmos-bubblechat",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "0.8.x"
+    }
+}
