@@ -1,7 +1,7 @@
 window.onload = function() {
 
 	var messages = [];
-	var socket = io.connect('http://localhost:8080');
+	var socket = io.connect('http://cmos-bubblechat.nodejitsu.com');
 	var field = document.getElementById("field");
 	var sendButton = document.getElementById("send");
 	var content = document.getElementById("content");
@@ -35,6 +35,7 @@ window.onload = function() {
 $(document).ready(function() {
 	$("#field").keyup(function(e) {
 		if(e.keyCode == 13) {
+            console.log("this should work");
 			sendMessage();
 		}
 	});

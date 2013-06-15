@@ -1,7 +1,6 @@
 var express = require("express");
 var app = express();
-var port = 8080
-q
+var port = 80;
 
 app.set('views', __dirname + '/tpl');
 app.engine('html', require('ejs').renderFile);

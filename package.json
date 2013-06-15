@@ -1,11 +1,11 @@
 {
     "name": "RealTimeWebChat",
-    "version": "0.0.1-6",
+    "version": "0.0.1-12",
     "description": "Real time web chat",
     "dependencies": {
         "socket.io": "latest",
         "express": "latest",
-	"ejs": "latest",
+        "ejs": "latest"
     },
     "author": "Christian",
     "subdomain": "cmos-bubblechat",
