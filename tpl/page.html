@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Real time web chat</title>
-            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> 
-            <script src="/socket.io/socket.io.js"></script>
-            <script src="/tree.js"></script>
-            <script src="/chat.js"></script>
+<html>
+  <head>
+    <title>Real time web chat</title>
+    <script src="/jquery.js"></script>
+    <script src="/d3.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/tree.js"></script>
+    <script src="/chat.js"></script>
+
     <style>
+      p { 
+        font: 12px sans-serif; 
+        word-wrap: break-word;
+      }
 
-  .node circle {
-        fill: #fff;
-            stroke: steelblue;
-                stroke-width: 3px;
-                  }
-
-                    .node text { font: 12px sans-serif; }
-
-                      .link {
-                            fill: none;
-                                stroke: #ccc;
-                                    stroke-width: 2px;
-                                      }
-                                        
-                                          </style>
-        </head>
-        <body>
-            <div id="content" ></div>
-            <div class="controls">Name: 
-                <input id="name" style="width:350px;">
-                <br>
-                <input id="field" style="width:350px;">
-                <input id="send" type="button" value="send">
-                <input id="parent" type="hidden" value=0>
-                <input id="currentID" type="hidden" value=1>
-            </div>
-        </body>
-    </html>
+      .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content" style="position: relative; height: 600px;"></div>
+    <div class="controls">Name: 
+      <input id="name" style="width:350px;">
+      <br />
+      <input id="field" style="width:350px;">
+      <input id="send" type="button" value="send">
+    </div>
+  </body>
+</html>
