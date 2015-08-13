@@ -4,7 +4,7 @@ window.onload = function() {
   var messagesById = {};
   var activeMessage = { message: {id: null}};
 
-	var socket = io.connect('http://45.55.183.36:9999');
+	var socket = io.connect('http://cmos-bubblechat.herokuapp.com');
 	var field = document.getElementById("field");
 	var sendButton = document.getElementById("send");
 	var content = document.getElementById("content");

@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var port = 9999;
+var port = process.env.PORT;
 
 app.set('views', __dirname + '/tpl');
 app.engine('html', require('ejs').renderFile);
