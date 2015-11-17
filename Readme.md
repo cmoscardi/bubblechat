@@ -1,3 +1,3 @@
-This was taken from here and we will be building it out to a cool-ass bubble chat application:
+Check out a live demo here!
 
-http://net.tutsplus.com/tutorials/javascript-ajax/real-time-chat-with-nodejs-socket-io-and-expressjs/
+[http://cmos-bubblechat.herokuapp.com](http://cmos-bubblechat.herokuapp.com)
